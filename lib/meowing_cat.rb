@@ -1,13 +1,13 @@
-## code your solution here. 
+## code your solution 
 class Cat
-
     attr_accessor :name
+
     def meow
         puts "meow!"
     end 
 end 
 
+henry = Cat.new
+puts henry.name = "henry"
+puts henry.meow
 
-maru = Cat.new
-maru.name = "Maru"
-maru.name 
